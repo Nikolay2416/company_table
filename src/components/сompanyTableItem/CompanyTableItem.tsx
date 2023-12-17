@@ -4,6 +4,7 @@ import type { CheckboxChangeEvent } from 'antd/es/checkbox';
 
 import { changeEmployeeArray, updateCompanyInfo } from '../../store/slices/companySlice';
 import { useAppDispatch } from '../../hooks/store';
+import { Employee } from '../../type/typeCompany';
 
 import cls from './сompanyTableItem.module.css';
 
@@ -11,7 +12,7 @@ interface CompanyTableItemProps {
   id: string;
   name: string;
   address: string;
-  employeeCompanies: any[];
+  employeeCompanies: Employee[];
   checked: boolean;
 }
 
