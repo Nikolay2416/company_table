@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  padding: 25px;
+  padding-top: 15px;
+  gap: 50px;
+
+  justify-content: space-between;
+  flex-grow: 1;
+}

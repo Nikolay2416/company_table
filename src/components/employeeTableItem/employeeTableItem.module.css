@@ -1,0 +1,19 @@
+.line {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.lineActive {
+  background-color: #f0f0f0;
+}
+
+.line div {
+  flex: 1 0 5%;
+}
+
+.input {
+  margin: 0px 4px;
+}
